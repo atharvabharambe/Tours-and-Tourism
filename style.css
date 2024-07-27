@@ -20,7 +20,7 @@ header{
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
@@ -29,6 +29,7 @@ header{
     font-size: 2em;
     color: #359381;
     pointer-events: none;
+    margin-right: 240px;
 
 }
 
@@ -58,6 +59,17 @@ header{
 #text{
     position: absolute;
     font-size: 5em;
-    color: #333;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0 , 0 , 0 , .2);
     
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+
 }
