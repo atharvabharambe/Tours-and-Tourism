@@ -29,7 +29,7 @@ header{
     font-size: 2em;
     color: #359381;
     pointer-events: none;
-    margin-right: 240px;
+    margin-right: 270px;
 
 }
 
@@ -70,6 +70,24 @@ header{
     left: 0;
     width: 100%;
     pointer-events: none;
+}
+
+.sec{
+    margin-top: 135px;
+    position: relative;
+    background: #003329;
+    padding: 100px;
 
 
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
 }
