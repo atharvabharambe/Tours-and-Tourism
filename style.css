@@ -52,7 +52,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 121vh;
+    /* overflow: hidden; */
 }
 
 
@@ -73,11 +74,10 @@ header{
 }
 
 .sec{
-    margin-top: 135px;
+    /* margin-top: 135px; */
     position: relative;
     background: #003329;
     padding: 100px;
-
 
 }
 .sec h2{
